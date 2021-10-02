@@ -1,0 +1,19 @@
+.LoginPage {
+  background-color: #1674bc;
+  height: 100vh;
+  weight: 100vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Logo {
+  margin-left: 35vw;
+  width:30vw;
+  height:auto;
+  
+}
+
+
+
