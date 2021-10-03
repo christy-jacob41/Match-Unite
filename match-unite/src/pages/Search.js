@@ -1,15 +1,15 @@
 import React from 'react';
+import Map from './Map'
+import Navbar from './Navbar'
+import SearchBar from './SearchBar'
+
 
 const Search = (props) => {
 return (
     <div>
-        <header id="SearchHeader">
-            <div className="SearchHeaderWrapper">
-            <div>Map</div>
-            <div>Filter</div>
-            </div>
-        </header>
-        <body>Search</body>
+        <Navbar></Navbar>
+        <Map z-index="0"></Map>
+        <SearchBar></SearchBar>
     </div>
   )
 };

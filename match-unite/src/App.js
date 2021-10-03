@@ -5,7 +5,6 @@ import Social from './pages/Social';
 import Search from './pages/Search';
 import Profile from './pages/Profile';
 import Login from './pages/Login';
-import Navigation from './Navigation';
 
 function App() {
   return (

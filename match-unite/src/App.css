@@ -15,5 +15,53 @@
   
 }
 
+#SearchHeader {
+  margin-top: 20vh;
+}
 
+#belowNavbar {
+  margin-top: 20vh;
+  position: absolute;
+  text-align: center;
 
+  margin-left: 8vw;
+  height: 70vh;
+  z-index: -1;
+}
+
+#home {
+  background-color: #1674bc;
+  text-align: center;
+  padding-left: 10vw;
+  padding-bottom: 20vh;
+  padding-top: 10vh;
+}
+
+.JohnSmith {
+  color:white;
+}
+
+#about {
+  padding-top: 10vh;
+}
+
+#parallax {
+  margin-left: 15vw;
+}
+
+#ActivityArea {
+  margin-left: 27vw;
+}
+
+.PictureArea {
+  display: grid;
+  justify-content: space-evenly;
+}
+
+.PictureArea img {
+  width:40vw;
+  height:auto;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}

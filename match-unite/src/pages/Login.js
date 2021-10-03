@@ -23,7 +23,7 @@ function Login() {
   return (
       <body className="LoginPage">
           <img className="Logo" src={Logo}/>
-          <Link to="/search">
+          <Link to="/profile">
           <Button className="LoginButton" block
    style={{backgroundColor: 'white', fontWeight: 'bold', color: '#1674bc', borderRadius: '100px', textAlign: 'Center', width: '40vw', marginTop: '15px', height: '10vh', fontSize: '5vh'}} 
    onMouseEnter={changeBackgroundHover} onMouseLeave={changeBackgroundLeave}>Login</Button>{' '}

@@ -1,13 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar'
+import SocialPage from './SocialPage'
+import '../App.css';
 
 const Social = (props) => {
 return (
 
     <div>
-        <div id="FriendsProfileHeaderContainer">
-            <header id="FriendsProfileHeader">Social</header>
-        </div>
-        <body>Friends</body>
+        <Navbar></Navbar>
+        <SocialPage className="socialSection"></SocialPage>
     </div>
     
 
